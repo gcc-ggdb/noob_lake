@@ -154,3 +154,5 @@ for i in range(0, len(title_list)):
     f.write('\n')
 f.close()
 ```
+
+아 그리고 top100이긴한데 50위 까지만 가져왔음 ㅎㅎ
