@@ -9,7 +9,7 @@ keyword = "백지헌" # 검색할 거 넣으면 됨. 귀여운 백지헌 한 번
 base_url = "https://www.google.co.kr/search?q="
 for_image = "&tbm=isch"
 
-url = base_url + keyword + for_image # 고양이 검색했을 때 페이지
+url = base_url + keyword + for_image # 검색했을 때 페이지
 source = requests.get(url).text
 
 soup = BeautifulSoup(source, 'html.parser')
