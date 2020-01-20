@@ -23,7 +23,6 @@ def loop_insta_page(input_url):
     global has_next_page
     has_next_page = get_page_info['has_next_page']
 
-    print(end_cursor)
     get_edges = get_edge_owner_to_timeline_media['edges'] # type(get_edges) == list
     
     for nodes in get_edges :
